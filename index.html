@@ -391,8 +391,18 @@
         <p class="footer-header">Subscribe</p>
         <form name="subscribe_form" autocomplete="on" novalidate>
           <label>
-            <input type="email" name="email" />
+            <input class="input-subscribe" type="email" name="email" placeholder="E-mail"/>
           </label>
+          <button class="button-subscribe">
+            <div class="button-subscribe-insert">
+<div>Subscribe</div>
+
+  <svg class="button-subscribe-icon" width="24" height="24">
+    <use href="./images/icons.svg#icon-subscribe"></use>
+  </svg>
+
+</div>
+          </button>
         </form>
       </div>
       </div>
@@ -407,23 +417,28 @@
 <p class="modal-window-paragraph">
   Leave your contacts and we will call you back
 </p>
-</form>
+<div class="modal-window-form">
 <form name="order_service" autocomplete="on" novalidate>
-  <ul>
-    <li>
-  <label for="name">Name</label>
-  <input type="text">
-</li>
-<li>
-  <label for="phone">Phone</label>
+<div>
+  <label for="name" class="modal-label">Name</label>
+</div>
+<div>
+  <input type="text" id="name">
+</div>
+<div>
+  <label for="phone" class="modal-label">Phone</label>
+</div>
+<div>
   <input type="tel" id="phone" name="phone">
-</li>
-<li>
-  <label for="email">Email</label>
-  <input type="email" id="email" name="email">
-  </li>
-</ul>
+</div>
+<div>
+  <label for="email" class="modal-label">Email</label>
+</div>
+<div>
+  <input type="email" id="email" name="email" placeholder="E-mail">
+</div>
 </form>
+</div>
       </div>
     </div>
     <script src="./js/modal.js"></script>
