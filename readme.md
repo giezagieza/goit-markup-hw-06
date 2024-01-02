@@ -1,1 +1,1 @@
-https://giezagieza.github.io/goit-markup-hw-05/
+https://giezagieza.github.io/goit-markup-hw-06/
