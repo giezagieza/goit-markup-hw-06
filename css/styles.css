@@ -47,30 +47,29 @@ ul {
 }
 
 .button-subscribe {
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
   border-radius: 4px;
   background: var(--color-primary-brand);
   border: none;
-
+  color: var(--color-white-background);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 .button-subscribe-icon {
- 
+ fill: var(--color-white-background);
 }
 
 .button-subscribe-insert {
-box-sizing: border-box;
-  display: inline-flex;
-  margin: 8px 24px;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.64px;
-  gap: 16px;
-  color: var(--color-white-background);
-  fill: var(--color-white-background);
-  justify-content: center;
-  align-items: center;
+
 }
 
 .container {
@@ -195,6 +194,10 @@ margin-bottom: 69px;
   margin-right: 80px;
 }
 
+.footer-form {
+  display: flex;
+}
+
 .footer-logo {
   color: var(--color-light);
 }
@@ -315,9 +318,13 @@ a.active {
   width: 264px;
   height: 40px;
   border-radius: 4px;
-  background-color: var(--color-dark);
+  background-color: transparent;
   border: 1px solid var(--color-white-background);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
   margin-right: 24px;
 }
 
